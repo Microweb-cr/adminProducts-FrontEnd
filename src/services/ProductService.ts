@@ -20,8 +20,6 @@ export async function addProduct(data: ProductData) {
                 price: result.output.price
             }) 
 
-        } else {
-            throw new Error('Datos no Válidos')
         }
     } catch (error) {
         console.log(error)
