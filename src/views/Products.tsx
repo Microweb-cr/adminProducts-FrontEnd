@@ -47,7 +47,7 @@ export default function Products() {
                                 key={product.id}
                                 product={product}
                             />
-                        ))}
+                        )}
                     </tbody>
                 </table>
             </div>
